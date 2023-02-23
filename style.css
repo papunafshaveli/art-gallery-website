@@ -1,33 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;800;900&family=Outfit:wght@300&display=swap');
 
-body{ 
+body {
     box-sizing: border-box;
-    max-width: 375px;
+
 }
-.firstpicturetablet    {
+
+.firstpicturetablet {
     display: none;
 }
 
-.secondpicturetablet{
+.secondpicturetablet {
     display: none;
 }
 
-.thirdpicturetablet{
+.thirdpicturetablet {
     display: none;
 }
 
-.fourthpicturetablet{
+.fourthpicturetablet {
     display: none;
 }
-.firstpicturemobile{
-width: 375px;
+
+.firstpicturemobile {
+    width: 100vw;
 }
-.maindiv{
+
+.maindiv {
     background-color: white;
     padding: 16px;
 }
 
-.modern{
+.modern {
     color: Almost Black;
     font-family: 'Big Shoulders Display';
     font-size: 60px;
@@ -38,7 +41,8 @@ width: 375px;
     margin-top: 16px;
 
 }
-.art{
+
+.art {
     color: Almost Black;
     font-family: 'Big Shoulders Display';
     font-size: 60px;
@@ -49,7 +53,7 @@ width: 375px;
     margin-top: 16px;
 }
 
-.firsttext{
+.firsttext {
     margin-top: 32px;
     color: #444444;
     font-family: Outfit;
@@ -61,12 +65,12 @@ width: 375px;
 
 }
 
-.locationmain{
+.locationmain {
     display: flex;
     margin-top: 32px;
 }
 
-.location{
+.location {
     border: none;
     background-color: #151515;
     width: 204px;
@@ -80,25 +84,25 @@ width: 375px;
 
 }
 
-.arrowdiv{
-   
+.arrowdiv {
+
     width: 56px;
     height: 72px;
     background-color: #D5966C;
-    
-    
+
+
 }
 
-.arrow{
+.arrow {
     margin-top: 24px;
     margin-left: 24px;
 }
 
-.secondpicturemobile{
+.secondpicturemobile {
     margin-top: 120px;
 }
 
-.yourday{
+.yourday {
     margin-top: 25px;
     color: Almost Black;
     font-family: 'Big Shoulders Display';
@@ -110,7 +114,7 @@ width: 375px;
 
 }
 
-.secondtext{
+.secondtext {
     margin-top: 21px;
     color: #444444;
     font-family: Outfit;
@@ -122,15 +126,15 @@ width: 375px;
 
 }
 
-.thirdpicturemobile{
+.thirdpicturemobile {
     margin-top: 32px;
 }
 
-.fourthpicturemobile{
+.fourthpicturemobile {
     margin-top: 16px;
 }
 
-.bottomdiv{
+.bottomdiv {
     position: relative;
     margin-top: 16px;
     width: 343px;
@@ -139,7 +143,7 @@ width: 375px;
 
 }
 
-.come{
+.come {
     position: absolute;
     margin-top: 48px;
     margin-left: 24px;
@@ -152,7 +156,7 @@ width: 375px;
 
 }
 
-.thirdtext{
+.thirdtext {
     position: absolute;
     margin-top: 162px;
     margin-left: 24px;
@@ -166,21 +170,21 @@ width: 375px;
 
 }
 
-.bottomdiv2{
-    
+.bottomdiv2 {
+
     width: 375px;
     height: 336px;
     background-color: #151515;
     margin-top: 120px;
 }
 
-.modernart{
-    
+.modernart {
+
     margin-left: 32px;
     margin-top: 48px;
 }
 
-.fourthtext{
+.fourthtext {
     width: 311px;
     height: 104px;
     margin-left: 32px;
@@ -194,7 +198,7 @@ width: 375px;
 
 }
 
-.socialmedia{
+.socialmedia {
     margin-top: 40.25px;
     margin-left: 32px;
     margin-bottom: 48px;
@@ -203,37 +207,40 @@ width: 375px;
     justify-content: space-between;
 }
 
-@media screen and (min-width:376px){
-    body{
-        
+@media screen and (min-width:768px) {
+    body {
+
         box-sizing: border-box;
         max-width: 768px;
     }
-    .firstpicturemobile    {
+
+    .firstpicturemobile {
         display: none;
     }
-    
-    .secondpicturemobile{
+
+    .secondpicturemobile {
         display: none;
     }
-    
-    .thirdpicturemobile{
+
+    .thirdpicturemobile {
         display: none;
     }
-    
-    .fourthpicturemobile{
+
+    .fourthpicturemobile {
         display: none;
     }
-    .firstpicturetablet{
+
+    .firstpicturetablet {
         display: block;
     }
-    .maindiv{
+
+    .maindiv {
         position: relative;
         background-color: white;
         padding: 40px;
     }
-    
-    .modern{
+
+    .modern {
         position: absolute;
         color: Almost Black;
         font-family: 'Big Shoulders Display';
@@ -243,9 +250,10 @@ width: 375px;
         letter-spacing: 0px;
         margin-top: -600px;
         margin-left: 355px;
-    
+
     }
-    .art{
+
+    .art {
         position: absolute;
         color: Almost Black;
         font-family: 'Big Shoulders Display';
@@ -256,8 +264,8 @@ width: 375px;
         margin-top: -530px;
         margin-left: 355px;
     }
-    
-    .firsttext{
+
+    .firsttext {
         position: absolute;
         width: 339px;
         height: 112px;
@@ -270,18 +278,18 @@ width: 375px;
         letter-spacing: 0px;
         margin-top: -412px;
         margin-left: 355px;
-        
-    
+
+
     }
-    
-    .locationmain{
+
+    .locationmain {
         position: absolute;
         display: flex;
         margin-top: -260px;
         margin-left: 355px;
     }
-    
-    .location{
+
+    .location {
         border: none;
         background-color: #151515;
         width: 204px;
@@ -292,30 +300,30 @@ width: 375px;
         font-weight: 800;
         line-height: 24px;
         letter-spacing: 3.6363637447357178px;
-    
+
     }
-    
-    .arrowdiv{
-       
+
+    .arrowdiv {
+
         width: 56px;
         height: 72px;
         background-color: #D5966C;
-        
-        
+
+
     }
-    
-    .arrow{
+
+    .arrow {
         margin-top: 24px;
         margin-left: 24px;
     }
-    
-    .secondpicturetablet{
+
+    .secondpicturetablet {
         display: block;
         margin-left: 290px;
         margin-top: 120px;
     }
-    
-    .yourday{
+
+    .yourday {
         position: absolute;
         width: 223px;
         height: 135px;
@@ -327,10 +335,10 @@ width: 375px;
         line-height: 45px;
         letter-spacing: 0px;
         text-align: left;
-    
+
     }
-    
-    .secondtext{
+
+    .secondtext {
         position: absolute;
         width: 223px;
         height: 140px;
@@ -342,34 +350,34 @@ width: 375px;
         line-height: 28px;
         letter-spacing: 0px;
         text-align: left;
-    
+
     }
-    
-    .thirdpicturetablet{
+
+    .thirdpicturetablet {
         margin-top: 10px;
         display: block;
         justify-content: flex-start;
     }
-    
-    .fourthpicturetablet{
+
+    .fourthpicturetablet {
         position: absolute;
         display: block;
         margin-left: 411px;
         margin-top: -720px;
 
     }
-    
-    .bottomdiv{
+
+    .bottomdiv {
         position: relative;
         margin-left: 411px;
         margin-top: -396px;
         width: 280px;
         height: 396px;
         background-color: #151515;
-    
+
     }
-    
-    .come{
+
+    .come {
         position: absolute;
         margin-top: 85px;
         margin-left: 24px;
@@ -379,10 +387,10 @@ width: 375px;
         font-weight: 900;
         line-height: 45px;
         letter-spacing: 0px;
-    
+
     }
-    
-    .thirdtext{
+
+    .thirdtext {
         position: absolute;
         margin-top: 190px;
         margin-left: 24px;
@@ -395,11 +403,11 @@ width: 375px;
         line-height: 28px;
         letter-spacing: 0px;
         text-align: left;
-    
+
     }
-    
-    .bottomdiv2{
-        
+
+    .bottomdiv2 {
+
         width: 768px;
         height: 216px;
         background-color: #151515;
@@ -407,14 +415,14 @@ width: 375px;
         position: relative;
 
     }
-    
-    .modernart{
-        
+
+    .modernart {
+
         margin-left: 32px;
         margin-top: 48px;
     }
-    
-    .fourthtext{
+
+    .fourthtext {
         width: 281px;
         height: 104px;
         margin-left: 214px;
@@ -425,10 +433,10 @@ width: 375px;
         font-weight: 300;
         line-height: 26px;
         letter-spacing: 0px;
-    
+
     }
-    
-    .socialmedia{
+
+    .socialmedia {
         margin-top: -100px;
         margin-left: 630px;
         margin-bottom: 48px;
@@ -436,5 +444,5 @@ width: 375px;
         display: flex;
         justify-content: space-between;
     }
-    
+
 }
